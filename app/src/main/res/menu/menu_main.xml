@@ -1,0 +1,36 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.firstexcercise.MainActivity">
+    <group android:checkableBehavior="single">
+        <item
+            android:orderInCategory="1"
+            android:id="@+id/fragmentred"
+            android:title="@string/red"
+            android:checkable="false"
+            app:showAsAction="never">
+        </item>
+        <item
+            android:orderInCategory="2"
+            android:id="@+id/fragmentblue"
+            android:title="@string/blue"
+            android:checkable="false"
+            app:showAsAction="never">
+        </item>
+        <item
+            android:orderInCategory="3"
+            android:id="@+id/fragmentgreen"
+            android:title="@string/green"
+            android:checkable="false"
+            app:showAsAction="never">
+        </item>
+        <item
+            android:orderInCategory="4"
+            android:id="@+id/fragmentwhite"
+            android:title="@string/white"
+            android:checkable="false"
+            app:showAsAction="never">
+        </item>
+    </group>
+
+</menu>
